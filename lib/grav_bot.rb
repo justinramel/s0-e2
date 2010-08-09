@@ -28,6 +28,8 @@ class GravBot
 			hash = hash_email(email)
 			send_reply(m, hash)
 		end
+
+		@irc.run
 	end
 
 	def clean_email(email)
@@ -40,10 +42,6 @@ class GravBot
 
 	def send_reply(message, hash)
 		message.reply "http://www.gravatar.com/avatar/#{hash}"
-	end
-
-	def run
-		@irc.run
 	end
 
 end

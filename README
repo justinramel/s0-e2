@@ -1,3 +1,10 @@
+-- Dependancies 
+	gem install cinch
+	gem install rspec
+
+-- Running
+	ruby runner.rb
+
 -- RMU ZERO SESSION | PROBLEM 12
 -- Submissions due 12:00 UTC 8/10
 
