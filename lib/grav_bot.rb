@@ -10,7 +10,6 @@ class GravBot
 
 	def run
 		setup	
-		run
 	end
 
 	def setup
