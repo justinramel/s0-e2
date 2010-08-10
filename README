@@ -1,9 +1,12 @@
 -- Dependancies 
-	gem install cinch
-	gem install rspec
+    gem install cinch
+    gem install rspec
 
--- Running
-	ruby runner.rb
+-- Running bot
+    ruby runner.rb
+
+-- Calling but in irc
+    !gravbot email@address.com
 
 -- RMU ZERO SESSION | PROBLEM 12
 -- Submissions due 12:00 UTC 8/10
